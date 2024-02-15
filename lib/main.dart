@@ -1,4 +1,4 @@
-import 'package:bloc_state_management/random.dart';
+import 'package:bloc_state_management/ui/counter-screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Random(),
+      home: CounterScreen(),
     );
   }
 }
